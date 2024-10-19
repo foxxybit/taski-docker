@@ -41,8 +41,6 @@ jobs:
       # Добавляем env-переменные для доступа к БД
       env:
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        ALLOWED_HOSTS: ${{ secrets.ALLOWED_HOSTS }}
-        DEBUG: ${{ secrets.DEBUG }}
         POSTGRES_USER: django_user
         POSTGRES_PASSWORD: django_password
         POSTGRES_DB: django_db
