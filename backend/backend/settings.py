@@ -8,7 +8,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['127.0.0.1', '158.160.88.41', 'localhost', 'ftaski.ddns.net']
+ALLOWED_HOSTS = ['127.0.0.1', '158.160.88.41', 'localhost', 'ftaski.ddns.net']
 
 
 # Application definition
